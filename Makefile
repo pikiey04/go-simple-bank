@@ -1,4 +1,4 @@
- postgres:
+postgres:
 	docker run --name postgres-bank  -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=postgres -d postgres:alpine
 
 createdb:
